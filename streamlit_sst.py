@@ -5,7 +5,7 @@ import pandas as pd
 df = pd.DataFrame(columns=['Input Text'])
 
 # define the label
-st.write('Enter text:')
+st.write('Enter name:')
 
 # define the input field
 user_input = st.text_input(label='')
